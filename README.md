@@ -5,3 +5,5 @@ Uso del aplicativo:
 2.-cargar el archivo en la aplicacion
 3.-el aplicativo regresa el timbre de dicho xml
 
+Requisitos
+Visual studio 2019
