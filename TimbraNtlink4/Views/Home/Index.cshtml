@@ -1,0 +1,93 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+
+@Html.Hidden("RedirectTo", Url.Action("Timbrar", "Home"))
+
+<div class="jumbotron" style="padding-top:0px">
+    <div class="row ">
+        <div class="form-group col-lg-6">
+
+
+            <div class="row ">
+                <div class="form-group col-lg-6">
+
+                    <h1>NTLINK </h1>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="form-group col-lg-10">
+                    <span id="Label18" class="control-label">XML</span>
+
+
+                    @*<input class=" form-control" type="text" accept="text/xml" />
+                        <div class="input-group-btn">
+                            <label for="files" class="btn btn-default">Cargar</label>
+                            <input id="files" type="file" class="btn btn-default" accept="text/xml" style="visibility:hidden;" />
+                        </div>*@
+
+                    <div class="input-group">
+                        <label class="input-group-btn">
+                            <span class="btn btn-primary">
+                                Cargar <input type="file" id="xml-file" name="xml_file" accept="text/xml" style="display: none;">
+                            </span>
+                        </label>
+                        <input type="text" class="form-control" id="xml-name" placeholder="Seleccione el XML" readonly>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-2 pt-2">
+                    <button style="height:60px;width:80px" type="button" id="btnGenerarFactura" name="btnGenerarFactura" onclick="TimbrarCFDI()" class="btn btn-primary">
+                        <i class="fas fa-save" title="Previa"></i> Timbrar
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="form-group col-lg-6" style="text-align: right;">
+
+            <div class="row px-1 justify-content-center mt-0 mb-0 border-line">
+                <img src="~/Imagenes/Ntlink.png" class="image" width="200" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <span id="file_error" style="color:red"></span>
+
+    </div>
+
+    <div class="row">
+
+        <div>
+            <span id="Label4" class="control-label">Salida</span>
+            <textarea name="txtSalida" rows="15" cols="400" id="txtSalida" class="form-control" style="width:100%;">
+                        </textarea>
+
+        </div>
+
+    </div>
+
+</div>
+
+<asp:HiddenField ID="hfArchivo" runat="server" />
+
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+
+
+@section scripts{
+    <script src="@Url.Content("~/Scripts/Timbrar.js?version = 1.0")" type="text/javascript"></script>
+
+
+
+}
+
+
+
