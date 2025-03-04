@@ -40,9 +40,9 @@ To compile and run this project you will need:
 
 ## Usage
 
-Create an XML file using the test company URE180429TM6 -UNIVERSIDAD ROBOTICA ESPAÑOLA SA DE CV as Emisor
-Load the XML file into the application.
-The tool will return the stamped XML (timbre) via the NTLink service.
+* Create an XML file using the test company URE180429TM6 -UNIVERSIDAD ROBOTICA ESPAÑOLA SA DE CV as Emisor
+* Load the XML file into the application.
+* The tool will return the stamped XML (timbre) via the NTLink service.
 
 ## Roadmap
 
