@@ -1,6 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://ntlink.com.mx">
+  <a href="https://ntlink.com.mx](https://github.com/NTlink/ntlink-ws-sdk/blob/master/logo.png">
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
