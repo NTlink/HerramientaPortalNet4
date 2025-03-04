@@ -7,7 +7,7 @@
 <h3 align="center">Herramienta Portal Net4</h3>
 
   <p align="center">
-    SDK Java client for NT link CFDI 4.0 web services
+    .NET Framework 4.8 client to stamp XML CFDI using NTLink web services
     <br />
     <br />
     <br />
@@ -21,38 +21,38 @@
 </div>
 
 
-.NET Framework 4.8 client to stamp XML CFDI using NTLink web services
+## NT Link Web service client
 
 The tool supports the following operation:
 
 * timbraCfdiSinSello
 
-Getting Started
+## Getting Started
 
 Just clone this repository and open it with Visual Studio. Then build the solution to start using the tool.
 
-Prerequisites
+## Prerequisites
 
 To compile and run this project you will need:
 
-.NET Framework 4.8
-Windows OS
+* .NET Framework 4.8
+* Windows OS
 
-Usage
+## Usage
 
-Create an XML file using the test company URE180429TM6.
+Create an XML file using the test company URE180429TM6 -UNIVERSIDAD ROBOTICA ESPAÑOLA SA DE CV as Emisor
 Load the XML file into the application.
 The tool will return the stamped XML (timbre) via the NTLink service.
 
-Roadmap
+## Roadmap
 
 1.0.0 Initial version supporting timbraCfdiSinSello operation
 Future versions: additional NTLink service operations, improved error handling, and extended logging features
 
-License
+## License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-Contact
+## Contact
 
-Ricardo Gomez – GitHub – soporte@ntlink.com.mx
+Ricardo Gómez – GitHub – soporte@ntlink.com.mx
