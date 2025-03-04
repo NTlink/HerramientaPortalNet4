@@ -34,4 +34,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 Contact
 
-Your Name – GitHub – your.email@example.com
+Your Name – GitHub – soporte@ntlink.com.mx
