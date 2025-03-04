@@ -46,8 +46,8 @@ To compile and run this project you will need:
 
 ## Roadmap
 
-1.0.0 Initial version supporting timbraCfdiSinSello operation
-Future versions: additional NTLink service operations, improved error handling, and extended logging features
+- [x] 1.0.0 Initial version supporting timbraCfdiSinSello operation
+- [x] Future versions: additional NTLink service operations, improved error handling, and extended logging features
 
 ## License
 
